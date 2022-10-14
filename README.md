@@ -1,51 +1,32 @@
-AndroidTriviaFragment - solution code
-=====================================
+# 3.1 y 3.2 AndroidTrivia :video_game:
 
-This app is the solution code for Android Kotlin Fundamentals codelab 3.1:
-Create and add a fragment. The app is also the starter code for Android Kotlin
-Fundamentals codelab 3.2: Define navigation paths.
+## Descripcion
+En este repositorio encontraremos un pequeño proyecto que consistira en un juego con tres preguntas, y cada una con multiples respuestas. En el caso de que se falle una pregunta, automaticamente se perderá el juego teniendo que volver a comenzar. Como tecnología usada para el desarrollo del mismo se hace uso de Jetpack Compose para los componentes de navegacion entre pantallas, implementando cada una de ellas como un fragmento.
 
-Introduction
-------------
+## Comenzando :rocket:
+Con las siguientes instrucciones, podrás obtener una copia del proyecto para poder ejecutarlo en tu máquina local.
 
-The AndroidTrivia app asks the user trivia questions about Android development.
-It makes use of the navigation component within Jetpack to move the user between
-screens. Each screen is implemented as a fragment.
+### Prerequisitos :clipboard:
+Tener instalado Android Studio, y en el caso de que no lo tuviesemos, debemos descargarlo desde la página oficial. Si nuestro sistema operativo es Windows, el enlace directo sera el siguiente: https://developer.android.com/studio. En cambio si tenemos MacOS o Linux, el enlace a usar es: https://developer.android.com/studio#downloadsl. En esta pagina encontraremos diferentes apartados para los distintos sistemas operativos, solo debemos hacer *scroll* hasta llegar al nuestro.
 
-The app navigates using buttons, the app bar, and a navigation drawer. Because
-students haven't yet learned about saving data or the Android lifecycle, the app
-tries to eliminate bugs caused by configuration changes.
 
-Prerequisites
--------------
+### Instalacion :wrench:
+Se podrá descargar e instalar de dos maneras diferentes, mediante un zip extrayendolo posteriormente o haciendo uso de la herramienta Git
 
-You need to know:
-- The fundamentals of Kotlin.
-- How to create basic Android apps in Kotlin.
-- How to open, build, and run apps with Android Studio.
-- How to work with layouts.
+**_Opcion 1: descargar zip_**
 
-Getting started
----------------
+Nos dirigimos al repositorio que querremos descargar y haremos click en el boton verde que encontramos a la derecha con el texto *Code*. Se nos despliega un menú y seleccionaremos la opcion de *download zip*, guardandolo en donde queramos en nuestro ordenador. A continuación, nos moveremos al directorio donde lo habiamos guardado y extraeremos los archivos. Por ultimo abriremos android studio, y seleccionaremos en el menu *File*, la opción de *Open project*. Esto nos abrirá el explorador de archivos para que seleccionaremos el que habiamos descomprimido en el paso anterior.
 
-1. Download and run the app.
+**_Opción 2: haciendo uso de la herramienta Git_**
 
-License
--------
+Debemos tener instalada la herramienta Git, en caso de que no sea así nos dirigimos al siguiente enlace (en el caso de tener como sistema operativo Windows), y la descargaremos en instalaremos: https://gitforwindows.org/ . Si tu sistema operativo es MacOS, el enlace seria el siguiente: https://git-scm.com/download/mac
 
-Copyright 2019 Google, Inc.
+El siguiente paso seria dirigirnos al repositorio que queremos descargar y haremos click en el boton verde que encontramos a la derecha con el texto *Code*. Se nos despliega un menú y, en este caso, copiaremos la URL que nos aparece. A continuación, abriremos en nuestro ordenador la terminal y nos crearemos un directorio en local, donde guardaremos los archivos. Tras esto, deberemos ejecutar la siguiente orden: *git clone [URL que hemos copiado anteriormente]*, y se nos habra descargado en el directorio. Por ultimo solo quedaria abrir Android Studio e importar el proyecto, de la siguiente manera: seleccionaremos en el menu *File*, la opción de *Open project* y navegaremos hasta el directorio que habiamos creado e importado el codigo.
 
-Licensed to the Apache Software Foundation (ASF) under one or more contributor
-license agreements.  See the NOTICE file distributed with this work for
-additional information regarding copyright ownership.  The ASF licenses this
-file to you under the Apache License, Version 2.0 (the "License"); you may not
-use this file except in compliance with the License.  You may obtain a copy of
-the License at
+## Lenguaje usado
+Kotlin
 
-  http://www.apache.org/licenses/LICENSE-2.0
+## Estado del proyecto
+:construction: En construccion
 
-Unless required by applicable law or agreed to in writing, software
-distributed under the License is distributed on an "AS IS" BASIS, WITHOUT
-WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.  See the
-License for the specific language governing permissions and limitations under
-the License.
+
